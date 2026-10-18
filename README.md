@@ -1,6 +1,6 @@
 # Shoaib Latif
 
-**SDET @ AHK Solution · Playwright · Selenium · Appium · CI / E2E · Dubai, UAE**
+**SDET at RHK Properties · Playwright · Selenium · Appium · CI / E2E · Dubai, UAE**
 
 I build and maintain test infrastructure for web and mobile apps, and ship the work back to the open-source ecosystem whenever I can. 15+ merged PRs in 2026, mostly test-infra, browser-automation, and CI work on popular OSS projects.
 
