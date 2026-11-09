@@ -2,7 +2,7 @@
 
 **SDET at RHK Properties · Playwright · Selenium · Appium · CI / E2E · Dubai, UAE**
 
-I build and maintain test infrastructure for web and mobile apps, and ship the work back to the open-source ecosystem whenever I can. 15+ merged PRs in 2026, mostly test-infra, browser-automation, and CI work on popular OSS projects.
+I build and maintain test infrastructure for web and mobile apps, and ship the work back to the open-source ecosystem whenever I can. 18+ merged PRs in 2026, mostly test-infra, browser-automation, and CI work on popular OSS projects.
 
 ---
 
@@ -11,6 +11,7 @@ I build and maintain test infrastructure for web and mobile apps, and ship the w
 | Repo | PR | What I shipped |
 |---|---|---|
 | [vitest-dev/vitest](https://github.com/vitest-dev/vitest) | [#10903](https://github.com/vitest-dev/vitest/pull/10903) | docs: `userEvent.keyboard` special-keys list |
+| [sidereal-io/sidereal](https://github.com/sidereal-io/sidereal) | [#427](https://github.com/sidereal-io/sidereal/pull/427) | fix: e2e Playwright skeleton + CI gate (designed, reviewed, merged) |
 | [LearningCircuit/local-deep-research](https://github.com/LearningCircuit/local-deep-research) | [#6338](https://github.com/LearningCircuit/local-deep-research/pull/6338) | test: real-browser mXSS coverage across Chromium / WebKit / Firefox |
 | [snapotter-hq/SnapOtter](https://github.com/snapotter-hq/SnapOtter) | [#2475](https://github.com/snapotter-hq/SnapOtter/pull/2475) | ci: regenerate darwin visual baselines on macOS |
 | [prettier/prettier](https://github.com/prettier/prettier) | (2 PRs) | link + ternary formatting |
@@ -46,11 +47,12 @@ I prefer to land every fix with a **regression test or a CI guard** — never ju
 - `hashgraph-online/hol-guard#5049` (Draft) — scoped-package regression test
 - `gravity-ui/graph#398` — extract Playwright page objects into `@gravity-ui/graph-playwright`
 - `0xBakeer/TandemLLM#7` — `activity.spec.ts` long-task budget (50 ms) on GB10
+- `vitest-dev/vitest#11743` — fix: batch console logs per macrotask (open, CI green)
 
 ---
 
 ## Contact
 
-- LinkedIn — [shoaibyazdani](https://www.linkedin.com/in/shoaibyazdani/)
-- Email — shoaib.yazdani@gmail.com
+- LinkedIn — [shoaib-latif](https://www.linkedin.com/in/shoaib-latif/)
+- Email — shoaibyazdani7@gmail.com
 - Open to: senior SDET / test-architect / staff-quality roles · remote · Dubai-based
