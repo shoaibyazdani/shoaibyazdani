@@ -2,7 +2,7 @@
 
 **SDET at RHK Properties · Playwright · Selenium · Appium · CI / E2E · Dubai, UAE**
 
-I build and maintain test infrastructure for web and mobile apps, and ship the work back to the open-source ecosystem whenever I can. 18+ merged PRs in 2026, mostly test-infra, browser-automation, and CI work on popular OSS projects.
+I build and maintain test infrastructure for web and mobile apps, and ship the work back to the open-source ecosystem whenever I can. 18+ merged PRs in 2026 plus a commit in `NousResearch/hermes-agent`'s main, mostly test-infra, browser-automation, and CI work on popular OSS projects.
 
 ---
 
@@ -10,6 +10,7 @@ I build and maintain test infrastructure for web and mobile apps, and ship the w
 
 | Repo | PR | What I shipped |
 |---|---|---|
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | [commit](https://github.com/NousResearch/hermes-agent/commit/0151c2f613c73a76a42b2b457f184f4c1ec6f642) | fix(telegram): retry webhook bootstrap on a transient Bot API failure |
 | [vitest-dev/vitest](https://github.com/vitest-dev/vitest) | [#10903](https://github.com/vitest-dev/vitest/pull/10903) | docs: `userEvent.keyboard` special-keys list |
 | [sidereal-io/sidereal](https://github.com/sidereal-io/sidereal) | [#427](https://github.com/sidereal-io/sidereal/pull/427) | fix: e2e Playwright skeleton + CI gate (designed, reviewed, merged) |
 | [LearningCircuit/local-deep-research](https://github.com/LearningCircuit/local-deep-research) | [#6338](https://github.com/LearningCircuit/local-deep-research/pull/6338) | test: real-browser mXSS coverage across Chromium / WebKit / Firefox |
