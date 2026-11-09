@@ -49,6 +49,7 @@ I prefer to land every fix with a **regression test or a CI guard** — never ju
 - `gravity-ui/graph#398` — extract Playwright page objects into `@gravity-ui/graph-playwright`
 - `0xBakeer/TandemLLM#7` — `activity.spec.ts` long-task budget (50 ms) on GB10
 - `vitest-dev/vitest#11743` — fix: batch console logs per macrotask (open, CI green)
+- `NousResearch/hermes-agent#151948` — runtime footer token-usage + `/usage` modes
 
 ---
 
