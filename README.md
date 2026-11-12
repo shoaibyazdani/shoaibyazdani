@@ -2,7 +2,7 @@
 
 **SDET at RHK Properties · Playwright · Selenium · Appium · CI / E2E · Dubai, UAE**
 
-I build and maintain test infrastructure for web and mobile apps, and ship the work back to the open-source ecosystem whenever I can. 18+ merged PRs in 2026 plus a commit in `NousResearch/hermes-agent`'s main, mostly test-infra, browser-automation, and CI work on popular OSS projects.
+I build and maintain test infrastructure for web and mobile apps, and ship the work back to the open-source ecosystem whenever I can. 18+ merged PRs in 2026 plus a merged PR and four commits in `NousResearch/hermes-agent`'s `main` — including **keychain**, my macOS-Keychain secret-source plugin, merged into their plugin catalogue after the Nov 2026 plugin hackathon.
 
 ---
 
@@ -10,6 +10,7 @@ I build and maintain test infrastructure for web and mobile apps, and ship the w
 
 | Repo | PR | What I shipped |
 |---|---|---|
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | [#153690](https://github.com/NousResearch/hermes-agent/pull/153690) | plugin catalogue: **keychain** — macOS Keychain as a Hermes secret source ([repo](https://github.com/shoaibyazdani/hermes-keychain), v0.1.1) |
 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | [commit](https://github.com/NousResearch/hermes-agent/commit/0151c2f613c73a76a42b2b457f184f4c1ec6f642) | fix(telegram): retry webhook bootstrap on a transient Bot API failure |
 | [vitest-dev/vitest](https://github.com/vitest-dev/vitest) | [#10903](https://github.com/vitest-dev/vitest/pull/10903) | docs: `userEvent.keyboard` special-keys list |
 | [sidereal-io/sidereal](https://github.com/sidereal-io/sidereal) | [#427](https://github.com/sidereal-io/sidereal/pull/427) | fix: e2e Playwright skeleton + CI gate (designed, reviewed, merged) |
@@ -24,6 +25,12 @@ I build and maintain test infrastructure for web and mobile apps, and ship the w
 | [hashgraph-online/hol-guard](https://github.com/hashgraph-online/hol-guard) | [#5049](https://github.com/hashgraph-online/hol-guard/pull/5049) | draft: scoped package label regression test |
 
 Full list of 28 PRs opened in 2026 → see [Pull requests tab](https://github.com/shoaibyazdani?tab=open-source-contributions).
+
+---
+
+## Shipped projects
+
+- **[hermes-keychain](https://github.com/shoaibyazdani/hermes-keychain)** — macOS Keychain as a first-class Hermes secret source. A `SecretSource` plugin (`secrets.keychain`) so provider keys resolve from the OS keystore at startup instead of a plaintext `.env`; operator-only migration with verified readback, `.env` removal through core, append-only fetch audit. Merged into the Hermes plugin catalogue ([#153690](https://github.com/NousResearch/hermes-agent/pull/153690), v0.1.1) — 15 tests, `hermes plugins validate` clean.
 
 ---
 
